@@ -9,13 +9,13 @@ A standalone Skill for Codex and other agent environments. Before acting, it aud
 Install with the Skills CLI:
 
 ```bash
-npx skills add https://github.com/AlvinGgg/skills --skill prompt-readiness
+npx skills add https://github.com/AlvinGgg/prompt-readiness-skill --skill prompt-readiness
 ```
 
 Or clone it directly into Codex's Skill directory:
 
 ```bash
-git clone https://github.com/AlvinGgg/skills.git ~/.codex/skills/prompt-readiness
+git clone https://github.com/AlvinGgg/prompt-readiness-skill.git ~/.codex/skills/prompt-readiness
 ```
 
 After installation, verify that `SKILL.md`, `agents/`, and `references/` exist.
@@ -27,7 +27,7 @@ Send the following prompt to an AI agent with shell access:
 > Install the `prompt-readiness` Skill for me.
 >
 > 1. Ensure that `~/.codex/skills/` exists.
-> 2. Clone `https://github.com/AlvinGgg/skills.git` into `~/.codex/skills/prompt-readiness`.
+> 2. Clone `https://github.com/AlvinGgg/prompt-readiness-skill.git` into `~/.codex/skills/prompt-readiness`.
 > 3. Verify that the directory contains `SKILL.md`, `agents/openai.yaml`, and `references/readiness-checklist.md`.
 > 4. Report the installation result and tell me that I can invoke it explicitly with `$prompt-readiness` at the start of a task.
 

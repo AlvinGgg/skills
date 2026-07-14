@@ -9,13 +9,13 @@
 使用 Skills CLI 安装：
 
 ```bash
-npx skills add https://github.com/AlvinGgg/skills --skill prompt-readiness
+npx skills add https://github.com/AlvinGgg/prompt-readiness-skill --skill prompt-readiness
 ```
 
 也可以直接克隆到 Codex 的 Skill 目录：
 
 ```bash
-git clone https://github.com/AlvinGgg/skills.git ~/.codex/skills/prompt-readiness
+git clone https://github.com/AlvinGgg/prompt-readiness-skill.git ~/.codex/skills/prompt-readiness
 ```
 
 安装完成后，应能看到 `SKILL.md`、`agents/` 与 `references/`。
@@ -27,7 +27,7 @@ git clone https://github.com/AlvinGgg/skills.git ~/.codex/skills/prompt-readines
 > 请帮我安装 `prompt-readiness` Skill。执行以下步骤：
 >
 > 1. 确保 `~/.codex/skills/` 存在。
-> 2. 将 `https://github.com/AlvinGgg/skills.git` 克隆到 `~/.codex/skills/prompt-readiness`。
+> 2. 将 `https://github.com/AlvinGgg/prompt-readiness-skill.git` 克隆到 `~/.codex/skills/prompt-readiness`。
 > 3. 验证该目录包含 `SKILL.md`、`agents/openai.yaml` 和 `references/readiness-checklist.md`。
 > 4. 告诉我安装结果，并说明我可在任务开头使用 `$prompt-readiness` 显式调用它。
 
