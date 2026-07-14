@@ -20,6 +20,17 @@ git clone https://github.com/AlvinGgg/skills.git ~/.codex/skills/prompt-readines
 
 安装完成后，应能看到 `SKILL.md`、`agents/` 与 `references/`。
 
+## 交给 AI Agent 安装
+
+将下面这段话直接发给有 shell 权限的 AI Agent：
+
+> 请帮我安装 `prompt-readiness` Skill。执行以下步骤：
+>
+> 1. 确保 `~/.codex/skills/` 存在。
+> 2. 将 `https://github.com/AlvinGgg/skills.git` 克隆到 `~/.codex/skills/prompt-readiness`。
+> 3. 验证该目录包含 `SKILL.md`、`agents/openai.yaml` 和 `references/readiness-checklist.md`。
+> 4. 告诉我安装结果，并说明我可在任务开头使用 `$prompt-readiness` 显式调用它。
+
 ## 使用方式
 
 在任务开头显式调用：

@@ -20,6 +20,17 @@ git clone https://github.com/AlvinGgg/skills.git ~/.codex/skills/prompt-readines
 
 After installation, verify that `SKILL.md`, `agents/`, and `references/` exist.
 
+## Ask an AI Agent to install it
+
+Send the following prompt to an AI agent with shell access:
+
+> Install the `prompt-readiness` Skill for me.
+>
+> 1. Ensure that `~/.codex/skills/` exists.
+> 2. Clone `https://github.com/AlvinGgg/skills.git` into `~/.codex/skills/prompt-readiness`.
+> 3. Verify that the directory contains `SKILL.md`, `agents/openai.yaml`, and `references/readiness-checklist.md`.
+> 4. Report the installation result and tell me that I can invoke it explicitly with `$prompt-readiness` at the start of a task.
+
 ## Usage
 
 Invoke it explicitly at the start of a task:
