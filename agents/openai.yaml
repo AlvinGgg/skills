@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prompt Readiness"
+  short_description: "Audit, complete, rewrite, and execute prompts"
+  default_prompt: "Use $prompt-readiness to audit this request, collect missing context, rewrite the prompt, and then complete the task."
+policy:
+  allow_implicit_invocation: false
+
